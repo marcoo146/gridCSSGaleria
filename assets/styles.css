@@ -1,0 +1,20 @@
+.titulo {
+    text-align: center;
+}
+
+.galeriaDeImagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+justify-items: center;
+}
+
+.galeriaDeImagenes img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* esta configuracion se hace para nuestros celualares */
